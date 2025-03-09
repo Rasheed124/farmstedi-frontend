@@ -3,10 +3,11 @@
 import { useState } from 'react';
 
 import { Card, CardContent } from '@/components/ui/card';
-import RegisterForm from './form/RegisterForm';
-import OTPVerificationForm from './form/OTPVerificationForm';
+import RegisterForm from '@/components/SignUp/RegisterForm';
+import OTPVerificationForm from '@/components/SignUp/OTPVerificationForm';
 
-export default function SignupForm() {
+
+export default function SignupPage() {
   const [step, setStep] = useState(1);
   const [email, setEmail] = useState('');
 
