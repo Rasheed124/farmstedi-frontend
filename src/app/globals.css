@@ -2,8 +2,6 @@
 
 @theme {
   --color-greenLight: #68C34C;
-  --color-tahiti: #3ab7bf;
-  --color-bermuda: #78dcca;
 }
 
 @plugin "tailwindcss-animate";
