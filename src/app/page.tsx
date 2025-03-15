@@ -42,7 +42,7 @@ export default function Home() {
           </div>
 
           {/* Grid Content */}
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 mt-14">
+          <div className="grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-8 mt-14">
             <div className=" rounded-lg bg-fmsgreenMediumLight flex flex-col justify-center items-center p-10">
               <div className="bg-fmsgreenExtraLight text-fmsgreenLight p-5">
                 <LuPencilLine className=" text-2xl" />
