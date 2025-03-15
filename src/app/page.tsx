@@ -2,6 +2,9 @@ import Header from "@/components/layout/Header";
 import Image from "next/image";
 import { LuPencilLine } from "react-icons/lu";
 import { IoIosSearch } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoFacebook } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
 import { TbTopologyRing3 } from "react-icons/tb";
 import Link from "next/link";
 
@@ -100,6 +103,56 @@ export default function Home() {
               <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
                 <div className="col-span-2 sm:col-span-1">
                   <p className="font-medium ">About</p>
+
+                  <ul className="mt-6 space-y-4 text-sm capitalize">
+                    <li>
+                      <Link
+                        href="#"
+                        className=" transition hover:opacity-75"
+                      >
+                        {" "}
+                        Features{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="#"
+                        className=" transition hover:opacity-75"
+                      >
+                        {" "}
+                        Our Products{" "}
+                      </Link>
+                    </li>
+              
+                  </ul>
+                </div>
+                <div className="col-span-2 sm:col-span-1">
+                  <p className="font-medium ">Contact us</p>
+
+                  <ul className="mt-6 space-y-4 text-sm capitalize">
+                    <li>
+                      <Link
+                        href="#"
+                        className=" transition hover:opacity-75"
+                      >
+                        {" "}
+                        Email: support@farmstedi.com{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="#"
+                        className=" transition hover:opacity-75"
+                      >
+                        {" "}
+                        Phone: +(234) 567-890{" "}
+                      </Link>
+                    </li>
+              
+                  </ul>
+                </div>
+                <div className="col-span-2 sm:col-span-1">
+                  <p className="font-medium ">follow</p>
 
                   <ul className="mt-6 space-y-4 text-sm capitalize">
                     <li>
