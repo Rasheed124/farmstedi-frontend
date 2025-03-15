@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-greenLight: #68C34C;
+  --color-fmsgreenLight: #68C34C;
+  --color-fmsgreenExtraLight: #ECF6E4;
+  --color-fmsgreenMediumLight: #F6F9F5;
+  --color-fmsBlack: #2E2E2E;
+  --font-dmSans: "DM Sans", sans-serif; 
+
 }
 
 @plugin "tailwindcss-animate";

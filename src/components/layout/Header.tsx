@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <>
       <header className="">
-        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 border bg-transparent pt-5">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8  bg-transparent pt-5">
           <div className="flex h-16 items-center gap-x-20 ">
             {/* LOGO */}
             <div className="md:flex md:items-center md:gap-12">
-              <a className="block text-greenLight text-2xl font-bold " href="#">
+              <a className="block text-fmsgreenLight text-2xl font-bold " href="#">
                 <h1>Farm Stedi</h1>
               </a>
             </div>
@@ -19,7 +19,7 @@ const Header = () => {
                 <ul className=" items-center gap-6 text-sm hidden md:flex">
                   <li>
                     <Link
-                      className="text-white bg-greenLight p-3 rounded-full "
+                      className="text-white bg-fmsgreenLight p-3 rounded-full "
                       href="#"
                     >
                       {" "}
@@ -28,7 +28,7 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      className="text-white p-3 rounded-full "
+                      className="text-black p-3 rounded-full "
                       href="#"
                     >
                       {" "}
