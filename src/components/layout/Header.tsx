@@ -6,16 +6,16 @@ const Header = () => {
     <>
       <header className="">
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8  bg-transparent pt-5">
-          <div className="flex h-16 items-center gap-x-20 ">
+          <div className="flex  items-center gap-x-20 ">
             {/* LOGO */}
-            <div className="md:flex md:items-center md:gap-12">
+            <div className="">
               <a className="block text-fmsgreenLight text-2xl font-bold " href="#">
                 <h1>Farm Stedi</h1>
               </a>
             </div>
 
             <div className="">
-              <nav  className="bg-transparent md:bg-white rounded-full p-4 flex  gap-x-6" >
+              <nav  className="bg-transparent md:bg-white rounded-full p-4 flex font-light  gap-x-6" >
                 <ul className=" items-center gap-6 text-sm hidden md:flex">
                   <li>
                     <Link
@@ -37,7 +37,7 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      className="text-white p-3 rounded-full "
+                      className="text-black p-3 rounded-full "
                       href="#"
                     >
                       {" "}
@@ -46,7 +46,7 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      className="text-white p-3 rounded-full "
+                      className="text-black p-3 rounded-full "
                       href="#"
                     >
                       {" "}
@@ -55,7 +55,7 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      className="text-white p-3 rounded-full "
+                      className="text-black p-3 rounded-full "
                       href="#"
                     >
                       {" "}
@@ -69,15 +69,15 @@ const Header = () => {
                   <div className="flex items-center gap-4">
                     <div className="sm:flex sm:gap-4">
                       <Link
-                        className="rounded-md  px-5 py-2.5 text-sm font-medium text-white shadow-sm"
+                        className=" px-5 py-2.5 rounded-full  text-sm  text-fmsgreenLight "
                         href="#"
                       >
-                        Login
+                        Log in
                       </Link>
 
                       <div className="hidden sm:flex">
                         <Link
-                          className="rounded-md border border-greenLight px-5 py-2.5 text-sm font-medium text-teal-600"
+                          className="px-5 py-2.5 rounded-full  text-sm text-fmsgreenLight  border border-fmsgreenLight hover:bg-fmsgreenLight hover:text-white"
                           href="#"
                         >
                           Signup

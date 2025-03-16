@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <main>
         <div className="relative bg-[url(/images/home-bg.png)] bg-cover bg-center bg-no-repeat">
-          {/* <Header /> */}
+          <Header />
           <section className="relative mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
             <div className="max-w-sm lg:max-w-xl  text-left  lg:pr-10">
               <h1 className=" font-light text-black ">
@@ -106,24 +106,17 @@ export default function Home() {
 
                   <ul className="mt-6 space-y-4 text-sm capitalize">
                     <li>
-                      <Link
-                        href="#"
-                        className=" transition hover:opacity-75"
-                      >
+                      <Link href="#" className=" transition hover:opacity-75">
                         {" "}
                         Features{" "}
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="#"
-                        className=" transition hover:opacity-75"
-                      >
+                      <Link href="#" className=" transition hover:opacity-75">
                         {" "}
                         Our Products{" "}
                       </Link>
                     </li>
-              
                   </ul>
                 </div>
                 <div className="col-span-2 sm:col-span-1">
@@ -131,49 +124,41 @@ export default function Home() {
 
                   <ul className="mt-6 space-y-4 text-sm capitalize">
                     <li>
-                      <Link
-                        href="#"
-                        className=" transition hover:opacity-75"
-                      >
+                      <Link href="#" className=" transition hover:opacity-75">
                         {" "}
                         Email: support@farmstedi.com{" "}
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="#"
-                        className=" transition hover:opacity-75"
-                      >
+                      <Link href="#" className=" transition hover:opacity-75">
                         {" "}
                         Phone: +(234) 567-890{" "}
                       </Link>
                     </li>
-              
                   </ul>
                 </div>
                 <div className="col-span-2 sm:col-span-1">
-                  <p className="font-medium ">follow</p>
+                  <p className="font-medium ">Follow</p>
 
-                  <ul className="mt-6 space-y-4 text-sm capitalize">
+                  <ul className="mt-6 space-x-4 flex  text-sm capitalize">
                     <li>
-                      <Link
-                        href="#"
-                        className=" transition hover:opacity-75"
-                      >
+                      <Link href="#" className=" transition hover:opacity-75">
                         {" "}
-                        Features{" "}
+                        <FaXTwitter  className="text-white text-xl"/>
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="#"
-                        className=" transition hover:opacity-75"
-                      >
+                      <Link href="#" className=" transition hover:opacity-75">
                         {" "}
-                        Our Products{" "}
+                     <IoLogoFacebook className="text-white text-xl" />
                       </Link>
                     </li>
-              
+                    <li>
+                      <Link href="#" className=" transition hover:opacity-75">
+                        {" "}
+                     <FaInstagram className="text-white text-xl" />
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -181,41 +166,34 @@ export default function Home() {
 
             <div className="mt-8 border-t border-gray-100 pt-8">
               <div className="sm:flex sm:justify-between">
-                <p className="text-xs text-white">
-                  &copy; 2022. Company Name. All rights reserved.
-                </p>
-
                 <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
                   <li>
-                    <a
-                      href="#"
-                      className=" transition hover:opacity-75"
-                    >
-                      {" "}
-                      Terms & Conditions{" "}
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className=" transition hover:opacity-75"
-                    >
+                    <a href="#" className=" transition hover:opacity-75">
                       {" "}
                       Privacy Policy{" "}
+
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      href="#"
-                      className=" transition hover:opacity-75"
-                    >
+                    <a href="#" className=" transition hover:opacity-75">
                       {" "}
-                      Cookies{" "}
+                      Terms & Conditions{" "}
+
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" className=" transition hover:opacity-75">
+                      {" "}
+                      Support{" "}
                     </a>
                   </li>
                 </ul>
+
+                <p className="text-xs text-white">
+                  &copy; 2022. Company Name. All rights reserved.
+                </p>
               </div>
             </div>
           </div>
