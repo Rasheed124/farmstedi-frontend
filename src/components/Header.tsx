@@ -64,7 +64,7 @@ const Header = () => {
                   <div className="sm:flex">
                     <Link
                       className="px-5 py-2.5 rounded-full text-sm text-fmsgreenLight border border-fmsgreenLight hover:bg-fmsgreenLight hover:text-white"
-                      href="#"
+                          href="/signup"
                     >
                       Signup
                     </Link>
@@ -126,7 +126,7 @@ const Header = () => {
                 </Link>
                 <Link
                   className="block w-full text-center px-5 py-2.5 rounded-full text-white bg-fmsgreenLight"
-                  href="#"
+                  href="/signup"
                 >
                   Signup
                 </Link>

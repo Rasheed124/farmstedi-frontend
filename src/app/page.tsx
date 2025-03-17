@@ -1,4 +1,4 @@
-import Header from "@/components/layout/Header";
+import Header from "@/components/Header";
 import Image from "next/image";
 import { LuPencilLine } from "react-icons/lu";
 import { IoIosSearch } from "react-icons/io";
